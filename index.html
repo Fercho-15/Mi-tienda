@@ -21,7 +21,7 @@
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
       gap: 20px;
-      padding: 20px;
+      padding: 30px;
     }
 
     .producto {
@@ -33,7 +33,7 @@
 
     .producto img {
       width: 50%;
-      height: 100px;
+      height: 150px;
       object-fit: cover;
       transition: transform 0.3s;
     }
@@ -115,7 +115,7 @@
     <img src="img/bandas.webp">
     <h3>Bandas Elásticas</h3>
     <p>$20</p>
-    <button onclick="agregarCarrito('Producto 1', 20)">Agregar</button>
+    <button onclick="agregarCarrito('Bandas Elásticas', 20)">Agregar</button>
     <a href="pdf/MANUAL-FISIOTERAPIA-GOMA-ELÁSTICA.pdf" target="_blank">         
   <button>Ver PDF</button>
 </a> 
@@ -125,7 +125,7 @@
     <img src="img/gelfrio.webp">
     <h3>Gel frio/caliente</h3>
     <p>$35</p>
-    <button onclick="agregarCarrito('Producto 2', 35)">Agregar</button>
+    <button onclick="agregarCarrito('Gel Frio/Caliente', 35)">Agregar</button>
     <a href="pdf/NexcareColdHotClassic_ES.pdf" target="_blank">
   <button>Ver PDF </button>
 </a>
@@ -135,9 +135,16 @@
     <img src="img/pelota.jpg">
     <h3>Pelota terapéutica</h3>
     <p>$50</p>
-    <button onclick="agregarCarrito('Producto 3', 50)">Agregar</button>
+    <button onclick="agregarCarrito('Pelota terapéutica', 50)">Agregar</button>
   </div>
 
+  <div class="producto">
+     <img src="">
+     <h3>Kit Completo</h3>
+    <p>$100</p>
+    <button onclick="agregarCarrito('Kit Completo', 50)">Agregar</button>
+  </div>
+    
 </div>
 
 <script>
